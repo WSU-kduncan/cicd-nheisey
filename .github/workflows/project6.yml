@@ -1,7 +1,7 @@
 name: Project 6
 on:
   push:
-    branches: [master]
+    branches: [main]
   release:
     types: [published]
 # creating env instead of hard coding
