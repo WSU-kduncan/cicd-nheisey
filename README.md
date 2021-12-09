@@ -28,7 +28,7 @@
 	My DOCKER_USERNAME contains the Username and DOCKER_TOKEN contains my password
 - Configure GitHub Workflow  
   - variables to change (repository, etc.)  
-![Workflow](Images/changes.png)  
+![Workflow](images/changes.png)  
 	I kept most of the file the same as the one in the project repo the main changes include: different name, added on push so it knows to run this workflow when I push my repo  
 	changed the Docker hub repo name to what my repo's name was, and changed the password secret name from DOCKER_PASSWORD to DOCKER_TOKEN because that is what I named it. That is   
 	essentially every change I made. This part by far took the longest, around two hours and 25 commits later I kept trying to fix the issue with the workflow file because whenever it  
