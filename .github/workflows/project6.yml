@@ -6,7 +6,7 @@ on:
     types: [published]
 # creating env instead of hard coding
 env:
-  DOCKER_HUB_REPO: nheisey001/project6
+  DOCKER_HUB_REPO: nheisey001/project6:project6
 jobs:
   push_to_registry:
     name: Push Docker image to Docker Hub
